@@ -55,7 +55,6 @@ jim.pop(); jim.push("Denver", "Chicago", "New York")
 jim.splice(2,1)
 console.log(jim)
 
-*/
 
 const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
 
@@ -65,8 +64,46 @@ for(i = 0; i < ninjaTurtles.length; i++) {
 
 console.log(ninjaTurtles);
 
+*/
 
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
 
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+let kristynsShoe = kristynsCloset.shift();
+thomsCloset[2].push(kristynsShoe);
+
+let kristynWearing = (`Krystyns wearing her ${kristynsCloset[2]}, ${kristynsCloset[3]} and ${kristynsCloset[4]}.`); 
+let thomsWearing = (`Thoms wearing his ${thomsCloset[0] [1]}, ${thomsCloset[1] [0]} and ${thomsCloset[2] [2]}`)	
+console.log(kristynWearing);
+console.log(thomsWearing);
 
 
 
