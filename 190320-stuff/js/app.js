@@ -64,7 +64,6 @@ for(i = 0; i < ninjaTurtles.length; i++) {
 
 console.log(ninjaTurtles);
 
-*/
 
 const kristynsCloset = [
   "left shoe",
@@ -111,6 +110,14 @@ const thomsCloset = [
 
 console.log(`Thom has ${thomsCloset[0].length} shirts, ${thomsCloset[1].length} pants, and ${thomsCloset[2].length} accessories`)
 
+*/
 
+let x = 0;
+for(let i = 0; i <= 1000; i++) {
+	if (i % 3 === 0 || i % 5 === 0) {
+		x += i
+	}; 
+};
+console.log(x)   // returns 234,168
 
 
