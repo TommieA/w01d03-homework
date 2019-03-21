@@ -97,13 +97,20 @@ const thomsCloset = [
   ]
 ];
 
-let kristynsShoe = kristynsCloset.shift();
-thomsCloset[2].push(kristynsShoe);
+//	let kristynsShoe = kristynsCloset.shift();
+//	thomsCloset[2].push(kristynsShoe);
 
-let kristynWearing = (`Krystyns wearing her ${kristynsCloset[2]}, ${kristynsCloset[3]} and ${kristynsCloset[4]}.`); 
-let thomsWearing = (`Thoms wearing his ${thomsCloset[0] [1]}, ${thomsCloset[1] [0]} and ${thomsCloset[2] [2]}`)	
-console.log(kristynWearing);
-console.log(thomsWearing);
+//	let kristynWearing = (`Krystyns wearing her ${kristynsCloset[2]}, ${kristynsCloset[3]} and ${kristynsCloset[4]}.`); 
+//	let thomsWearing = (`Thoms wearing his ${thomsCloset[0] [1]}, ${thomsCloset[1] [0]} and ${thomsCloset[2] [2]}`)	
+//	console.log(kristynWearing);
+//	console.log(thomsWearing);
+
+//	for(let i = 0; i <= kristynsCloset.length; i++)  {
+//			console.log(`WHIRR: Now washing ${kristynsCloset[i]}.`)
+//		}
+
+console.log(`Thom has ${thomsCloset[0].length} shirts, ${thomsCloset[1].length} pants, and ${thomsCloset[2].length} accessories`)
+
 
 
 
